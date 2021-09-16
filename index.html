@@ -12,12 +12,65 @@
     <!-- linking bootstrap style sheet -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <!-- linking local/relative style sheet -->
+    <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="styles.css">
 
 </head>
 
 <body>
 
+    <!-- Placing in a generic Navbar for later use of site navigation -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">SS</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">About Me<span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Education & Experience</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Connect with Me!
+          </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item"><strong>Professional</strong></a>
+                        <a class="dropdown-item" href="https://github.com/Sweeny91">GitHub</a>
+                        <a class="dropdown-item" href="https://www.linkedin.com/in/stevensweeny/">LinkedIn</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item"><strong>Social</strong></a>
+                        <a class="dropdown-item" href="https://www.facebook.com/steven.sweeny/">Facebook</a>
+                        <a class="dropdown-item" href="https://www.youtube.com/channel/UC7Yzlx8oX-_t4pHwCLXMD1Q">Youtube</a>
+                        <a class="dropdown-item" href="https://www.instagram.com/steven_sweeny/">Instagram</a>
+                    </div>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Projects
+          </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item"><strong>Data Analytics</strong></a>
+                        <a class="dropdown-item" href="https://github.com/Sweeny91/OpenWeatherAPI_Visualization_Dashboard">My First HTML</a>
+                        <a class="dropdown-item" href="https://github.com/Sweeny91/StockMarket_VBA_Scripting">Stock Scripting w/ VBA</a>
+                        <a class="dropdown-item" href="https://github.com/Sweeny91/Matplotlib_Tumor_Analysis">Getting Visual w/ Matplotlib</a>
+                        <a class="dropdown-item" href="https://github.com/Sweeny91/Matplotlib_Tumor_Analysis">The Power of APIs w/ Google Places</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item"><strong>Programming Journey</strong></a>
+                        <a class="dropdown-item" href="#">Learning C++</a>
+                        <a class="dropdown-item" href="#">Computational Mathematics Exploration</a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <br>
+    <br>
     <!-- Create the overall grid that will seperate the different sections of the page into their own respective "containers" -->
     <div class="container">
 
@@ -31,66 +84,62 @@
 
         <!-- Row 2: Will contain professional photo in business attire-->
         <div class="row">
-            <div class="col-md-12">
-                <img src="#" alt="Steven Sweeny">
+            <div class="col-md-12 clearfix">
+                <img src="assets/images/pre_inteview_photo.jpeg" width="1000" height="1000" alt="Steven Sweeny">
             </div>
         </div>
         <br>
 
-        <!-- Row 3-->
-        <div class="row">
-            <div class="col-lg-6">
-                <h2><strong>About Me</strong></h2>
-                <p>I was born in Clinton, Mo but for the most part, was raised in Kansas.</p>
-            </div>
-        </div>
 
         <!-- Row 3-->
         <div class="row">
-            <div class="col-md-12">
-                <h2><strong>Hobbies and Interests</strong></h2>
-                <br>
-                <div class="row">
-                    <div class="col-lg-6">
-                        <p>My favorite hobbies include skateboarding, billiards, and body building.</p>
-                        <!-- Pictures need to be included! -->
-                    </div>
-                    <!-- This column should better explain your love for media and a bootsrap responsive table should replace the current -->
-                    <div class="col-lg-6">
-                        <p>A table displaying a few of my favorite books, movies, and games can be found below</p>
-                        <table border="1">
-                            <tr>
-                                <th>Books</th>
-                                <th>Movies</th>
-                                <th>Games</th>
-                            </tr>
-                            <tr>
-                                <td>The Power of Habit</td>
-                                <td>The Star Wars Saga</td>
-                                <td>Mario Cart 8</td>
-                            </tr>
-                            <tr>
-                                <td>THE $100 STARTUP</td>
-                                <td>The Avengers Marvel Universe</td>
-                                <td>Pokemon</td>
-                            </tr>
-                            <tr>
-                                <td>My Engineering Text Books</td>
-                                <td>The Harry Potter Saga</td>
-                                <td>Super Mario Brothers</td>
-                            </tr>
-                        </table>
-                    </div>
-                </div>
-                <hr>
+            <div class="col-md-6">
+                <h2><strong>About Me</strong></h2>
+                <p>I am an alumni from the University of Kansas with a major in Civil Engineering and a concentration in Environmental Engineering.</p>
+                <p>I contributed as an asset to multiple employers throughout my time at KU and gained many technical and social skills which contribute to my strong professional presence today.</p>
+                <!-- <p>After the pandemic I found the job market thin for the specific Environmental Engineering employment opportunities I was interested in. Most of which requried a Masters in Evironmental Engineering spefically</p> -->
+                <p>I am now pursuing an AAS Computer Information Systems from 'Johnson County Community College' as well as a second Bachelors in Mathematics from 'The University of Missouri - Kansas City' </p>
+                <P> My current goals are to gain a deeper understanding of mathematics, programmings languages, machine learning, and the blockchain in order to become an asset in the ever-growing STEM field!</P>
             </div>
+            <div class="col-md-6">
+                <h2><strong>Hobbies and Interests</strong></h2>
+                <p>My favorite hobbies include skateboarding, billiards, and body building.</p>
+                <p>My interests include cryptocurrencies, collectibles, computer science (as a whole), engineering, and education.</p>
+                <!-- Pictures need to be included! -->
+                <hr>
+                <p>A table displaying a few of my favorite books, movies, and games can be found below</p>
+
+                <table border="1">
+                    <tr>
+                        <th>Books</th>
+                        <th>Movies</th>
+                        <th>Games</th>
+                    </tr>
+                    <tr>
+                        <td>The Power of Habit</td>
+                        <td>The Star Wars Saga</td>
+                        <td>Mario Cart 8</td>
+                    </tr>
+                    <tr>
+                        <td>THE $100 STARTUP</td>
+                        <td>The Avengers Marvel Universe</td>
+                        <td>Pokemon</td>
+                    </tr>
+                    <tr>
+                        <td>My Engineering Text Books</td>
+                        <td>The Harry Potter Saga</td>
+                        <td>Super Mario Brothers</td>
+                    </tr>
+                </table>
+            </div>
+            <hr>
         </div>
 
 
         <br>
         <br>
         <!-- Row 4-->
-        <div class="row">
+        <!-- <div class="row">
             <div class="col-md-12">
                 <h3>Connect with Me!</h3>
                 <ul>
@@ -99,7 +148,7 @@
                     <li><strong>Twitter:</strong> <a href="#">twitter.com</a></li>
                 </ul>
             </div>
-        </div>
+        </div> -->
 
 
     </div>
