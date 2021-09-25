@@ -12,69 +12,71 @@
     <!-- linking bootstrap style sheet -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <!-- linking local/relative style sheet -->
-    <link rel="stylesheet" href="reset.css">
-    <link rel="stylesheet" href="styles.css">
+    <!-- <link rel="stylesheet" href="static/css/reset.css"> -->
+    <link rel="stylesheet" href="static/css/styles.css">
 
 </head>
 
 <body>
 
-    <!-- Generic Navbar Example manipulated to best fit Navigation for users -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="index.html" id="logo">SS</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav mr-auto">
-                <li class="nav-item active">
-                    <a class="nav-link" href="aboutme.html">About Me<span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="eduexp.html">Education & Experience</a>
-                </li>
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-            Connect with Me!
-          </a>
-                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item"><strong>Professional</strong></a>
-                        <a class="dropdown-item" href="https://github.com/Sweeny91">GitHub</a>
-                        <a class="dropdown-item" href="https://www.linkedin.com/in/stevensweeny/">LinkedIn</a>
-                        <div class="dropdown-divider"></div>
-                        <a class="dropdown-item"><strong>Social</strong></a>
-                        <a class="dropdown-item" href="https://www.facebook.com/steven.sweeny/">Facebook</a>
-                        <a class="dropdown-item" href="https://www.youtube.com/channel/UC7Yzlx8oX-_t4pHwCLXMD1Q">Youtube</a>
-                        <a class="dropdown-item" href="https://www.instagram.com/steven_sweeny/">Instagram</a>
-                    </div>
-                </li>
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-            Projects
-          </a>
-                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item"><strong>Data Analytics</strong></a>
-                        <a class="dropdown-item" href="https://github.com/Sweeny91/OpenWeatherAPI_Visualization_Dashboard">My First HTML</a>
-                        <a class="dropdown-item" href="https://github.com/Sweeny91/StockMarket_VBA_Scripting">Stock Scripting w/ VBA</a>
-                        <a class="dropdown-item" href="https://github.com/Sweeny91/Matplotlib_Tumor_Analysis">Getting Visual w/ Matplotlib</a>
-                        <a class="dropdown-item" href="https://github.com/Sweeny91/Matplotlib_Tumor_Analysis">The Power of APIs w/ Google Places</a>
-                        <div class="dropdown-divider"></div>
-                        <a class="dropdown-item"><strong>Programming Journey</strong></a>
-                        <a class="dropdown-item" href="#">Learning C++</a>
-                        <a class="dropdown-item" href="#">Computational Mathematics Exploration</a>
-                    </div>
-                </li>
-            </ul>
-        </div>
-    </nav>
-
-    <br>
-    <br>
-    <!-- Create the overall grid that will seperate the different sections of the page into their own respective "containers" -->
     <div class="container">
 
-        <!-- Row 1: Will Container Name (need to replace with jumbotron) -->
+        <!-- The first row will contain the navbar-->
+        <div class="row">
+            <div class="col-md-12">
+                <!-- Placing in a generic Navbar for later use of site navigation -->
+                <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                    <a class="navbar-brand" href="index.html" id="logo">SS</a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav mr-auto">
+                            <li class="nav-item active">
+                                <a class="nav-link" href="aboutme.html">About Me<span class="sr-only">(current)</span></a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="eduexp.html">Education & Experience</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Connect with Me!
+                    </a>
+                                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <a class="dropdown-item"><strong>Professional</strong></a>
+                                    <a class="dropdown-item" href="https://github.com/Sweeny91">GitHub</a>
+                                    <a class="dropdown-item" href="https://www.linkedin.com/in/stevensweeny/">LinkedIn</a>
+                                    <div class="dropdown-divider"></div>
+                                    <a class="dropdown-item"><strong>Social</strong></a>
+                                    <a class="dropdown-item" href="https://www.facebook.com/steven.sweeny/">Facebook</a>
+                                    <a class="dropdown-item" href="https://www.youtube.com/channel/UC7Yzlx8oX-_t4pHwCLXMD1Q">Youtube</a>
+                                    <a class="dropdown-item" href="https://www.instagram.com/steven_sweeny/">Instagram</a>
+                                </div>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Projects
+                    </a>
+                                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <a class="dropdown-item"><strong>Data Analytics</strong></a>
+                                    <a class="dropdown-item" href="https://github.com/Sweeny91/OpenWeatherAPI_Visualization_Dashboard">My First HTML</a>
+                                    <a class="dropdown-item" href="https://github.com/Sweeny91/StockMarket_VBA_Scripting">Stock Scripting w/ VBA</a>
+                                    <a class="dropdown-item" href="https://github.com/Sweeny91/Matplotlib_Tumor_Analysis">Getting Visual w/ Matplotlib</a>
+                                    <a class="dropdown-item" href="https://github.com/Sweeny91/Matplotlib_Tumor_Analysis">The Power of APIs w/ Google Places</a>
+                                    <div class="dropdown-divider"></div>
+                                    <a class="dropdown-item"><strong>Programming Journey</strong></a>
+                                    <a class="dropdown-item" href="#">Learning C++</a>
+                                    <a class="dropdown-item" href="#">Computational Mathematics Exploration</a>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+        </div>
+
+        <!-- Row 2: Will Container Name (need to replace with jumbotron) -->
         <div class="row">
             <div class="col-md-12">
                 <h1><strong>Who I Am</strong></h1>
@@ -82,8 +84,9 @@
         </div>
         <br>
 
-        <!-- Row 2: Generic About Me (for Now)-->
+        <!-- Row 3: Generic About Me (for Now)-->
         <div class="row">
+
             <div class="col-lg-6">
                 <h2><strong>About Me</strong></h2>
                 <p>I am an alumni from the University of Kansas with a major in Civil Engineering and a concentration in Environmental Engineering.</p>
@@ -92,6 +95,7 @@
                 <p>I am now pursuing an AAS of Computer Information Systems from 'Johnson County Community College' as well as a second Bachelors in Mathematics from 'The University of Missouri - Kansas City' </p>
                 <P> My current goals are to gain a deeper understanding of mathematics, programmings languages, machine learning, and the blockchain in order to become an asset in the ever-growing STEM field!</P>
             </div>
+
             <div class="col-lg-6">
                 <h2><strong>Hobbies and Interests</strong></h2>
                 <p>My favorite hobbies include skateboarding, billiards, and body building.</p>
@@ -122,13 +126,10 @@
                         <td>Super Mario Brothers</td>
                     </tr>
                 </table>
+                <hr>
             </div>
-            <hr>
         </div>
 
-
-        <br>
-        <br>
         <!-- Row 4-->
         <!-- <div class="row">
             <div class="col-md-12">
@@ -140,7 +141,6 @@
                 </ul>
             </div>
         </div> -->
-
 
     </div>
 
