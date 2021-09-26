@@ -7,32 +7,10 @@
     When you use the "auto" rule on both left and right margins, 
     your browser will do the math necessary to center a block element.
     */
-      margin-left: 0;
+      margin-left: auto;
       margin-right: auto;
       /* Block display for img tags */
       display: block;
-  }
-  /* Styling the header, giving it a height, a background color, and some top padding */
-  
-  .header {
-      height: auto;
-      width: 1000px;
-      background: #cdcdcd;
-  }
-  /* Centering our h1 tag inside our header, giving it a little padding, removing its margin */
-  
-  .header h1 {
-      /* Change the size of your font to 60 pixels high. */
-      font-size: 80px;
-      /* This will color the heading font white. */
-      color: black;
-      /* Align the text to the center of its enclosing element (e.g. div). */
-      text-align: center;
-      /* Underline the text. */
-      text-decoration: underline;
-      /* give it some padding and remove margin */
-      padding: 40px;
-      margin: 0;
   }
   
   .jumbotron h1 {
@@ -53,4 +31,27 @@
       color: black;
       /* Align the text to the center of its enclosing element (e.g. div). */
       text-align: center;
+  }
+  /* ------------------------------------------------------------------------------------- */
+  /* Styling the header, giving it a height, a background color, and some top padding */
+  
+  .header {
+      height: auto;
+      width: 100%;
+      background: #cdcdcd;
+  }
+  /* Centering our h1 tag inside our header, giving it a little padding, removing its margin */
+  
+  .header h1 {
+      /* Change the size of your font to 60 pixels high. */
+      font-size: 80px;
+      /* This will color the heading font white. */
+      color: black;
+      /* Align the text to the center of its enclosing element (e.g. div). */
+      text-align: center;
+      /* Underline the text. */
+      text-decoration: underline;
+      /* give it some padding and remove margin */
+      padding: 40px;
+      margin: 0;
   }
