@@ -1,5 +1,6 @@
   /* Custom styles.css file built from scratch */
   /* All img tags */
+  /* Need to round corners of images */
   
   img {
       /* 
@@ -54,4 +55,8 @@
       /* give it some padding and remove margin */
       padding: 40px;
       margin: 0;
+  }
+  
+  .jumbotron {
+      margin-bottom: 0;
   }

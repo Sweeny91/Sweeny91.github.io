@@ -11,3 +11,23 @@ header {
 h2 {
     text-align: center;
 }
+
+h3 {
+    text-align: center;
+}
+
+h4 {
+    text-align: center;
+}
+
+img {
+    /* 
+  Center a block element in the middle of its enclosing tag.
+  When you use the "auto" rule on both left and right margins, 
+  your browser will do the math necessary to center a block element.
+  */
+    margin-left: auto;
+    margin-right: auto;
+    /* Block display for img tags */
+    display: block;
+}
