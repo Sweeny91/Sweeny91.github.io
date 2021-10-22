@@ -35,12 +35,12 @@
   }
   /* ------------------------------------------------------------------------------------- */
   /* Styling the header, giving it a height, a background color, and some top padding */
-  
-  .header {
+  /* .header {
       height: auto;
       width: 100%;
       background: #cdcdcd;
-  }
+  } 
+  */
   /* Centering our h1 tag inside our header, giving it a little padding, removing its margin */
   
   .header h1 {
@@ -59,4 +59,11 @@
   
   .jumbotron {
       margin-bottom: 0;
+  }
+  /* css for footers */
+  
+  footer {
+      text-align: center;
+      font-style: italic;
+      font-size: small;
   }

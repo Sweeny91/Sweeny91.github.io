@@ -21,11 +21,11 @@
 
     <div class="container">
 
-        <!-- The first row will contain the navbar-->
-        <div class="row">
+        <!-- Row 1: will contain the navbar-->
+        <nav class="row">
             <div class="col-md-12">
                 <!-- Placing in a generic Navbar for later use of site navigation -->
-                <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <div class="navbar navbar-expand-lg navbar-light bg-light">
                     <a class="navbar-brand" href="index.html" id="logo">SS</a>
                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -72,103 +72,121 @@
                             </li>
                         </ul>
                     </div>
-                </nav>
+                </div>
             </div>
-        </div>
+        </nav>
 
         <!-- Row 1: Contains "header" section of page -->
-        <div class="row">
-            <div class="col-md-12">
-                <header>
+        <header>
+            <div class="row">
+                <div class="col-md-12">
                     <h1>Education & Experience</h1>
-                </header>
+                </div>
             </div>
-        </div>
-
-        <!-- Row 2: "Education" Section -->
-        <div class="row">
-
-            <!-- Header element that takes up entire row -->
-            <div class="col-md-12">
-                <h2><strong>Education</strong></h2>
-            </div>
-
-            <!-- Next, half page columns will hold image of mascot and description of education -->
-
-            <div class="col-md-6">
-                <h4>The University of Kansas - Trilogy Edu</h4>
-                <a>
-                    <img src="assets/images/Data_Certificate.PNG" width="100%" height="60%" alt="KU Data Analtyics Certification diploma image">
-                </a>
-                <p>Following graduation from The School of Engineering the 'Pandemic' surfaced and shallowed out employment opportunities for entry level civil engineers, especially positions pertaining to the environmental sector.</p>
-                <p>This lead to my enrollment in KU's Data Analytics Bootcamp. The tech world and realm of coding always fascinated me. I thought that this coding-based data analytics program would be my best opportunity to 'get my foot in the door' when
-                    it came to the the tech world as well as diversify my portfolio.</p>
-            </div>
-
-            <div class="col-md-6">
-                <h4>The University of Kansas - School of Engineering</h4>
-                <a>
-                    <img src="assets/images/ce_degree.JPG" width="100%" height="60%" alt="KU Civil Engineering Degree image">
-                </a>
-                <p>I began my 'offical' college career at The University of Kansas. At first, I did had no idea what I was getting myself into. The University's large size and lack of interaction with superior's led to an uncharacteristic academic performance.
-                    Through trials, tribulations, and determination I was able to overcome all barriers to obtain a BS in Civil Engineering with a concentration in Environmental Engineering.</p>
-            </div>
-
-            <!-- This div will contain the second entry in the Education div -->
-            <div class="col-md-6">
-                <h4>Air Force Community College </h4>
-                <a>
-                    <img src="assets/images/structures.JPG" width="100%" height="60%" alt="Air Force Structural Engineering diploma image">
-                </a>
-                <p>Following the completion of high school I immedietly joined the ranks of the Air National Guard of Kansas. I contributed as a member of Civil Engineering squadron in the Structural Engineering division know as the "Structure's Shop". This
-                    assignment was the main decision-making factor in regards to my choice of major. This was primarily due to the fact that one was required to obtain a civil engineering degree in order to become a 'Civil Engineering' officer.</p>
-            </div>
-
-            <!-- This div will contain the third entry in the Education div -->
-            <div class="col-md-6">
-                <h4> High School(s) </h4>
-                <a>
-                    <img src="assets/images/hs_diploma.JPG" width="100%" height="55%" alt="Ottawa High School diploma image">
-                </a>
-                <p>I did not have your typical high school experience. My 9-12 career consisted of 6 high-schools, multiple sports teams during the same season, and an ongoing struggle to establish roots or a peer-level support system.</p>
-                <p> I was fortunate enough to spend the entirety of my last two years of high school at Ottawa high school. Here I was able to excel in academics recieving the 'Kansas Honors Scholors' award and obtain an overall GPA of approximately 3.9.</p>
-                <p> In addition to academics I also participated in extracurriculars such as cross country, wresting, and spanish club. During my senior year I help positions as Captain of the Cross Country and Wrestling teams as well as the Vice-President
-                    of Spanish Club.</p>
-            </div>
-
-        </div>
-
+        </header>
         <hr>
+        <!-- This div is to contain the main section of the page-->
+        <main>
 
-        <!-- This Section will be for your "Experience" Section -->
-        <div class="row">
-
-            <!-- Header for the experience portion of this page -->
-            <div class="col-md-12">
-                <h2><strong>Experience</strong></h2>
+            <!-- Row 2: "Education" Header -->
+            <div class="row">
+                <!-- Header element that takes up entire row -->
+                <div class="col-md-12">
+                    <h2><strong>Diplomas, Degrees, & Certifications</strong></h2>
+                </div>
             </div>
 
-            <!-- These columns contain information about work experienc and will take up half of a row each -->
-            <!-- First Resume Entry -->
-            <div class="col-lg-6">
-                <h3>Mosaic Ultra Lounge</h3>
-                <a>
-                    <img src="assets/images/mosaic.JPG" width="50%" height="50%" alt="Mosaic Ultra Lounge Logo Image">
-                </a>
-                <p>I worked on the sales management team of the premier nightclub of Kansas City Missouri</p>
-                <p>During my time at Mosiac I worked as part of a community outreach team aimed at builing close relationships with local businesses while increasing sales for the nightclub.</p>
+            <!-- "Education" Section: These half page columns will hold image of mascot and description of education -->
+            <div class="row">
+                <div class="col-md-6">
+                    <h4>The University of Kansas - Trilogy Edu</h4>
+                    <a>
+                        <img src="assets/images/Data_Certificate.PNG" width="100%" alt="KU Data Analtyics Certification diploma image">
+                    </a>
+                    <p>Following graduation from Engineering school the 'Pandemic' surfaced and shallowed out employment opportunities for entry level environmental engineers. This lead to my enrollment in KU's Data Analytics Bootcamp. The tech world and realm of coding always fascinated me therefore I calculated this coding-based bootcamp to be my best opportunity to diversify my portfolio.</p>
+                </div>
+                <div class="col-md-6">
+                    <h4>The University of Kansas - School of Engineering</h4>
+                    <a>
+                        <img src="assets/images/ce_degree.JPG" width="100%" alt="KU Civil Engineering Degree image">
+                    </a>
+                    <p>I began my college career at The University of Kansas. At first, I did had no idea what I was getting myself into. The University's large size and lack of interaction with superior's led to an uncharacteristic academic performance.
+                        Through trials, tribulations, and determination I was able to overcome all barriers to obtain a BS in Civil Engineering with a concentration in Environmental Engineering.</p>
+                </div>
             </div>
-            <!-- Second ... -->
-            <div class="col-lg-6">
-                <h3>The Olivia Collection</h3>
-                <a>
-                    <img src="assets/images/oread_outside.JPG" width="50%" height="50%" alt="Image of the outside of Oread Hotel">
-                </a>
-                <p>I began my career in hospitality management at "The Cave Nightclub" in Lawrence, KS. Here I started as a bartender in the undrground nightclub and was quickly promoted to 'Bar Manager' after the first year</p>
-                <p>This promotion led to to a dual role in the establishment where I worked as a bartender at the restaruant in the upstairs hotel, at the time "The Bird Dog Bar", as well as managed the bar staff of "The Cave".</p>
+            <div class="row">
+                <div class="col-md-6">
+                    <h4>Air Force Community College </h4>
+                    <a>
+                        <img src="assets/images/structures.JPG" width="100%" alt="Air Force Structural Engineering diploma image">
+                    </a>
+                    <p>Following the completion of high school I immedietly joined the ranks of the Air National Guard of Kansas. I contributed as a member of Civil Engineering squadron in the Structural Engineering division. This
+                        assignment was the main decision-making factor in regards to my choice of major.</p>
+                </div>
+                <div class="col-md-6">
+                    <h4> High School(s) </h4>
+                    <a>
+                        <img src="assets/images/hs_diploma.JPG" width="100%" alt="Ottawa High School diploma image">
+                    </a>
+                    <p>I did not have your typical high school experience. My 9-12 career consisted of 6 high-schools, multiple sports teams during the same season, and an ongoing struggle to establish roots or a peer-level support system. I was fortunate enough to spend the entirety of my last two years of high school at Ottawa high school. Here I was able to excel in academics recieving the 'Kansas Honors Scholors' award and obtain an overall GPA of approximately 3.9.</p>
+                </div>
             </div>
 
-        </div>
+            <hr>
+
+            <!-- "Experience" Section -->
+            <div class="row">
+                <!-- Header for the experience portion of this page -->
+                <div class="col-md-12">
+                    <h2><strong>Previous Employment</strong></h2>
+                </div>
+            </div>
+
+            <div class="row">
+                <!-- These columns contain information about work experienc and will take up half of a row each -->
+                <!-- First Resume Entry -->
+                <div class="col-lg-6">
+                    <h3>Mosaic Ultra Lounge</h3>
+                    <a>
+                        <img src="assets/images/mosaic.JPG" width="100%" alt="Mosaic Ultra Lounge Logo Image">
+                    </a>
+                    <p>One of my favorite places of employment was when I was apart of the sales management team of the premier nightclub of Kansas City, Missouri</p>
+                    <p>During my time at Mosiac I worked as part of a community outreach team aimed at builing close relationships with local businesses while increasing sales for the nightclub.</p>
+                </div>
+                <!-- Second ... -->
+                <div class="col-lg-6">
+                    <h3>The Olivia Collection</h3>
+                    <a>
+                        <img src="assets/images/oread_outside.JPG" width="100%" alt="Image of the outside of Oread Hotel">
+                    </a>
+                    <p>I began my career in hospitality management at "The Cave Nightclub" in Lawrence, KS. Here I started as a bartender in the undrground nightclub and was quickly promoted to 'Bar Manager' after the first year</p>
+                    <p>This promotion led to to a dual role in the establishment where I worked as a bartender at the restaruant in the upstairs hotel, at the time "The Bird Dog Bar", as well as managed the bar staff of "The Cave".</p>
+                </div>
+            </div>
+            <div class="row">
+                <!-- Third Resume Entry -->
+                <div class="col-lg-6">
+                    <h3>Genesis Health Club</h3>
+                    <a>
+                        <img src="assets/images/genesis.jpeg" width="100%" alt="Genesis Health Clubs Franchise Logo">
+                    </a>
+                    <p>I picked up body building in my mid-twenties which lead to my employment at Genesis Health Clubs. During my time here I gained technical sales experience while strengthening my communication skills. Due to the nature of this employments and it's "move up or move out" training program I only worked in this position for a little less than a year but the skills gained here were invaluable.</p>
+                </div>
+                <!-- Fourth ... -->
+                <div class="col-lg-6">
+                    <h3>Applebees</h3>
+                    <a>
+                        <img src="assets/images/applebees.jpeg" width="100%" alt="Applebees Franchise Logo">
+                    </a>
+                    <p>During my freshman year at KU it was quickly apparent that I would need a part time job to survive. A friend brought me in to Applebees where I was suppose to be hired as a server but much help was needed in the kitchen. Making the best out of the situation my work ethic paid off and I quickly became an "Applebees Expert" while working my way up the ranks and recieving multiple promotions and raises.</p>
+                </div>
+            </div>
+        </main>
+
+
+        <footer>
+            <p>Copyright &copy; 2022 Steven Sweeny Inc. | Any inqueries please contact: <a href="mailto:steven.sweeny@gmail.com.com">steven.sweeny@gmail.com.com</a></p>
+        </footer>
 
     </div>
 
