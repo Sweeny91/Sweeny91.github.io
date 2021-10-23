@@ -83,3 +83,16 @@
       background-color: #F7BFB4;
       /* background-image: url(); */
   }
+  /* declaring the font for the paragrpahs and attributes */
+  
+  p,
+  a {
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  /* configuring style for table */
+  
+  th,
+  td {
+      text-align: center;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
