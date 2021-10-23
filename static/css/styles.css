@@ -1,4 +1,5 @@
-  /* Custom styles.css file built from scratch */
+  /* Steven Sweeny Github portfolio CSS */
+  /* -------------------------------------------------------------------------------------------- */
   /* All img tags */
   /* Need to round corners of images */
   
@@ -12,6 +13,20 @@
       margin-right: auto;
       /* Block display for img tags */
       display: block;
+  }
+  /* Centering our h1 tag inside our header, giving it a little padding, removing its margin */
+  
+  .jumbotron h1 {
+      /* Change the size of your font to 60 pixels high. */
+      line-height: 150%;
+      font-size: 5em;
+      /* This will color the heading font white. */
+      color: black;
+      /* Align the text to the center of its enclosing element (e.g. div). */
+      text-align: center;
+      /* Underline the text. */
+      text-decoration: underline;
+      /* give it some padding and remove margin? */
   }
   
   .jumbotron p {
@@ -28,20 +43,6 @@
       background: #cdcdcd;
   } 
   */
-  /* Centering our h1 tag inside our header, giving it a little padding, removing its margin */
-  
-  .jumbotron h1 {
-      /* Change the size of your font to 60 pixels high. */
-      line-height: 150%;
-      font-size: 5em;
-      /* This will color the heading font white. */
-      color: black;
-      /* Align the text to the center of its enclosing element (e.g. div). */
-      text-align: center;
-      /* Underline the text. */
-      text-decoration: underline;
-      /* give it some padding and remove margin? */
-  }
   
   .jumbotron {
       margin-bottom: 0;
@@ -53,6 +54,7 @@
       font-style: italic;
       font-size: small;
   }
+  /* CSS for header elements */
   
   h1 {
       text-align: center;
@@ -75,4 +77,9 @@
       color: #eee;
       padding: 1em 1em 1em 1em;
       font-weight: bolder;
+  }
+  
+  #web110 {
+      background-color: #F7BFB4;
+      /* background-image: url(); */
   }

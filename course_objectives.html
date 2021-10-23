@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+<!-- Steven Sweeny: Web110 Midterm Page (10/23/21) -->
 <html lang="en-us">
 
 <head>
@@ -17,68 +18,11 @@
 
 </head>
 
-<body>
+<body id=web110>
     <!-- Create the overall grid that will seperate the different sections of the page into their own respective "containers" -->
     <div class="container">
 
-        <!-- Row 1: row will contain the navbar-->
-        <nav class="row">
-            <div class="col-md-12">
-                <!-- Originally placed a generic Navbar, manipulating as needed -->
-                <div class="navbar navbar-expand-lg navbar-light bg-light">
-                    <a class="navbar-brand" href="index.html" id="logo">SS</a>
-                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-                </button>
-
-                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                        <ul class="navbar-nav mr-auto">
-                            <li class="nav-item active">
-                                <a class="nav-link" href="aboutme.html">About Me<span class="sr-only">(current)</span></a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="eduexp.html">Education & Experience</a>
-                            </li>
-                            <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        Connect with Me!
-                    </a>
-                                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                    <a class="dropdown-item"><strong>Professional</strong></a>
-                                    <a class="dropdown-item" target="_blank" href="https://github.com/Sweeny91">GitHub</a>
-                                    <a class="dropdown-item" target="_blank" href="https://www.linkedin.com/in/stevensweeny/">LinkedIn</a>
-                                    <div class="dropdown-divider"></div>
-                                    <a class="dropdown-item"><strong>Social</strong></a>
-                                    <a class="dropdown-item" target="_blank" href="https://www.facebook.com/steven.sweeny/">Facebook</a>
-                                    <a class="dropdown-item" target="_blank" href="https://www.youtube.com/channel/UC7Yzlx8oX-_t4pHwCLXMD1Q">Youtube</a>
-                                    <a class="dropdown-item" target="_blank" href="https://www.instagram.com/steven_sweeny/">Instagram</a>
-                                </div>
-                            </li>
-                            <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        Projects
-                    </a>
-                                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                    <a class="dropdown-item"><strong>Data Analytics</strong></a>
-                                    <a class="dropdown-item" target="_blank" href="https://github.com/Sweeny91/OpenWeatherAPI_Visualization_Dashboard">My First HTML</a>
-                                    <a class="dropdown-item" target="_blank" href="https://github.com/Sweeny91/StockMarket_VBA_Scripting">Stock Scripting w/ VBA</a>
-                                    <a class="dropdown-item" target="_blank" href="https://github.com/Sweeny91/Matplotlib_Tumor_Analysis">Getting Visual w/ Matplotlib</a>
-                                    <a class="dropdown-item" target="_blank" href="https://github.com/Sweeny91/Python_GooglePlaces_API_VacationDestinations">The Power of APIs w/ Google Places</a>
-                                    <div class="dropdown-divider"></div>
-                                    <a class="dropdown-item"><strong>Programming Journey</strong></a>
-                                    <!-- Need to publish these repositories and establish links -->
-                                    <a class="dropdown-item" href="course_objectives.html">JCCC: Web110 - HTML/CSS </a>
-                                    <a class="dropdown-item" href="#">Learning C++</a>
-                                    <a class="dropdown-item" href="#">Computational Mathematics Exploration</a>
-                                </div>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </nav>
-
-        <!-- Row 2: Header Element-->
+        <!-- Row 1: Header Element-->
 
         <header class="row">
             <div class="col-md-12">
@@ -86,14 +30,15 @@
             </div>
         </header>
 
-        <!-- Row(s) 3: Will contain information about the class such ass course description and objectives-->
+        <!-- Row(s) 3: Will contain the course description -->
         <main>
             <div class="row">
                 <div class="col-md-12">
                     <h2> Course Description </h2>
-                    <p> Description of the course goes here <p>
+                    <p> "This course will cover the essential skills needed to create responsive websites, using HyperText Markup Language (HTML) and Cascading Style Sheets (CSS). Students will be introduced to the concepts, foundations, syntax, and structure of HTML and CSS. Additional topics include the use of File Transfer Protocol (FTP) to publish websites and validation to web standards established by the World Wide Web Consortium (W3C) and other organizations. 3 hrs. lecture/wk." <p>
                 </div>
             </div>
+            <!-- Row(s) 4: Will contain 3 half page columns for the "course information" and "required materials" from the syllabus -->
             <div class="row">
                 <div class="col-md-6">
                     <h2> Course Information </h2>
@@ -104,6 +49,30 @@
                         <li><strong>Prerequisites:</strong> None </li>
                         <li><strong>Textbook:</strong> <em> "Basics of Web Design: HTML5 & CSS3 6th Edition"</em> by Terry Felke-Morris.</li>
                     </ul>
+                </div>
+                <div class="col-md-6">
+                    <h2> Course Objectives </h2>
+                    <ol>
+                        <li> Explain how to create sites that are compliant with current W3C standards in web development. </li>
+                        <li> Create valid and semantically correct HTML pages </li>
+                        <li> Organize website files and FTP them to a web server. </li>
+                        <li> Create valid HTML tables. </li>
+                        <li> Create absolute, relative, and anchor links. </li>
+                        <li> Apply cascading style sheets to an HTML document through inline, internal, or external style sheets. </li>
+                        <li> Test and troubleshoot HTML and CSS. </li>
+                        <li> Create web forms using HTML and style them with CSS. </li>
+                        <li> Apply responsive web design principles. </li>
+                    </ol>
+                </div>
+            </div>
+            <!-- Row(s) 5: Will contain 3 half page columns for the "course information" and "required materials" from the syllabus -->
+            <div class="row">
+                <div class="col-md-6">
+                    <h2> Course Text </h2>
+                    <a>
+                        <img src="assets/images/web110_text.jpeg" width="100%" alt="Genesis Health Clubs Franchise Logo">
+                    </a>
+                    <p> This textbook is an online-only text consisting of 12 chapters covering "The Basics" of HTML and CSS. </p>
                 </div>
                 <div class="col-md-6">
                     <h2> Required Materials </h2>
@@ -117,6 +86,9 @@
                         <li> JCCC Web server space </li>
                     </ul>
                 </div>
+            </div>
+            <div>
+                <h4><a href="index.html"> Back to Home Page </a></h4> 
             </div>
         </main>
 
