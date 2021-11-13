@@ -14,6 +14,26 @@
       /* Block display for img tags */
       display: block;
   }
+  /* Come Back To (not working) */
+  /* #courseImg {
+      background-image: url(html_css.jpeg);
+      background-position: right;
+      background-repeat: no-repeat;
+  } */
+  
+  .coursecard {
+      background-color: hsla(173, 68%, 54%, 1);
+      border-radius: 15%;
+      padding: 1em;
+      border: 1px solid #eee;
+      border-radius: 15px;
+      margin: 0.5em;
+  }
+  
+  .coursecard h1,
+  h2 {
+      text-shadow: 2px 2px 3px #F7BFB4;
+  }
   /* Centering our h1 tag inside our header, giving it a little padding, removing its margin */
   
   .jumbotron h1 {
@@ -81,6 +101,7 @@
   
   #web110 {
       background-color: #F7BFB4;
+      color: white;
       /* background-image: url(); */
   }
   /* declaring the font for the paragrpahs and attributes */
