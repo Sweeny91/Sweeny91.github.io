@@ -2,7 +2,8 @@
   /* -------------------------------------------------------------------------------------------- */
   /* All img tags */
   /* Need to round corners of images */
-  
+  * { box-sizing: border-box; }
+
   img {
       /* 
     Center a block element in the middle of its enclosing tag.
@@ -20,14 +21,16 @@
       background-position: right;
       background-repeat: no-repeat;
   } */
+
   
   .coursecard {
-      background-color: hsla(173, 68%, 54%, 1);
-      border-radius: 15%;
-      padding: 1em;
-      border: 1px solid #eee;
-      border-radius: 15px;
-      margin: 0.5em;
+    background-color: hsla(173, 68%, 54%, 1);
+    border-radius: 15%;
+    padding: 1em;
+    border: 1px solid #eee;
+    border-radius: 15px;
+    box-sizing: border-box;
+    width: 40%;
   }
   
   .coursecard h1,
