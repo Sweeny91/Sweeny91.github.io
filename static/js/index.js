@@ -6,4 +6,5 @@ function externalLinks() {
         b.getAttribute("href") && b.hostname !== location.hostname && (b.target = "_blank")
     }
 };
+
 externalLinks();
